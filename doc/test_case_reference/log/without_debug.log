@@ -1,0 +1,202 @@
+==========================
+Running L3 test_1
+timeout 1 ../build.linux/nachos -ep hw4_normal_test1 0 -ep hw4_normal_test2 0 
+1
+1
+1
+1
+2
+2
+2
+2
+2
+1
+1
+1
+1
+1
+2
+2
+2
+2
+2
+1hw4_normal_test1 with priority 0
+hw4_normal_test2 with priority 0
+return value:0
+
+return value:0
+==========================
+Running L2 test_1
+timeout 1 ../build.linux/nachos -ep hw4_normal_test1 50 -ep hw4_normal_test2 50 
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+hw4_normal_test1 with priority 50
+hw4_normal_test2 with priority 50
+return value:0
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+return value:0
+==========================
+Running L2 test_2
+timeout 1 ../build.linux/nachos -ep hw4_normal_test1 50 -ep hw4_normal_test2 90 
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+hw4_normal_test1 with priority 50
+hw4_normal_test2 with priority 90
+return value:0
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+return value:0
+==========================
+Running L2 test_3
+timeout 1 ../build.linux/nachos -ep hw4_normal_test1 70 -ep hw4_normal_test2 80 -ep hw4_normal_test3 50
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+hw4_normal_test1 with priority 70
+hw4_normal_test2 with priority 80
+hw4_normal_test3 with priority 50
+return value:0
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+return value:0
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+return value:0
+==========================
+Running L1 test_1
+timeout 1 ../build.linux/nachos -ep hw4_normal_test1 100 -ep hw4_normal_test2 100
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+hw4_normal_test1 with priority 100
+hw4_normal_test2 with priority 100
+return value:0
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+return value:0
+==========================
+Running L1 test_2
+timeout 3 ../build.linux/nachos -ep hw4_delay_test1 100 -ep hw4_normal_test2 100
+1
+1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+hw4_delay_test1 with priority 100
+hw4_normal_test2 with priority 100
+return value:0
+1
+1
+1
+1
+1
+1
+1
+1
+return value:0
+==========================
+Running Aging L3 -> L2 test_1
+timeout 3 ../build.linux/nachos -ep hw4_delay_test1 50 -ep hw4_normal_test2 45
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+hw4_delay_test1 with priority 50
+hw4_normal_test2 with priority 45
+return value:0
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+return value:0
+done, please check output for validation

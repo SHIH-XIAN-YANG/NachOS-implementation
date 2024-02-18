@@ -1,0 +1,238 @@
+==========================
+Running L1 test_2
+timeout 3 ../build.linux/nachos -d z -ep hw4_delay_test1 100 -ep hw4_normal_test2 100
+hw4_delay_test1 with priority 100
+hw4_normal_test2 with priority 100
+[E] Tick [0]: Thread [0] (main thread) starts its execution
+[A] Tick [10]: Thread [1] is inserted into queue L[1]
+[A] Tick [20]: Thread [2] is inserted into queue L[1]
+[B] Tick [30]: Thread [1] is removed from queue L[1]
+[E] Tick [30]: Thread [1] is now selected for execution, thread [0] is replaced, and it has executed [30] ticks
+1[D] Tick [68]: Thread [1] update approximate burst time, from: [0], add [38], to [19]
+[B] Tick [68]: Thread [2] is removed from queue L[1]
+[E] Tick [68]: Thread [2] is now selected for execution, thread [1] is replaced, and it has executed [38] ticks
+[A] Tick [78]: Thread [1] is inserted into queue L[1]
+[D] Tick [96]: Thread [2] update approximate burst time, from: [0], add [28], to [14]
+[B] Tick [96]: Thread [1] is removed from queue L[1]
+[E] Tick [96]: Thread [1] is now selected for execution, thread [2] is replaced, and it has executed [28] ticks
+
+[D] Tick [106]: Thread [1] update approximate burst time, from: [19], add [10], to [14.5]
+[A] Tick [107]: Thread [1] is inserted into queue L[1]
+[B] Tick [107]: Thread [1] is removed from queue L[1]
+[E] Tick [107]: Thread [1] is now selected for execution, thread [1] is replaced, and it has executed [10] ticks
+[A] Tick [117]: Thread [2] is inserted into queue L[1]
+1[D] Tick [1161]: Thread [1] update approximate burst time, from: [14.5], add [1054], to [534.25]
+[B] Tick [1161]: Thread [2] is removed from queue L[1]
+[E] Tick [1161]: Thread [2] is now selected for execution, thread [1] is replaced, and it has executed [1054] ticks
+[A] Tick [1162]: Thread [1] is inserted into queue L[1]
+[B] Tick [1162]: Thread [1] is removed from queue L[1]
+[E] Tick [1162]: Thread [1] is now selected for execution, thread [2] is replaced, and it has executed [0] ticks
+
+[D] Tick [1172]: Thread [1] update approximate burst time, from: [534.25], add [10], to [272.125]
+[A] Tick [1173]: Thread [1] is inserted into queue L[1]
+[B] Tick [1173]: Thread [1] is removed from queue L[1]
+[E] Tick [1173]: Thread [1] is now selected for execution, thread [1] is replaced, and it has executed [10] ticks
+[A] Tick [1183]: Thread [2] is inserted into queue L[1]
+[B] Tick [1206]: Thread [2] is removed from queue L[1]
+[A] Tick [1206]: Thread [1] is inserted into queue L[1]
+[E] Tick [1206]: Thread [2] is now selected for execution, thread [1] is replaced, and it has executed [33] ticks
+2[D] Tick [1216]: Thread [2] update approximate burst time, from: [14], add [10], to [12]
+[B] Tick [1216]: Thread [1] is removed from queue L[1]
+[E] Tick [1216]: Thread [1] is now selected for execution, thread [2] is replaced, and it has executed [10] ticks
+[A] Tick [1226]: Thread [2] is inserted into queue L[1]
+[B] Tick [1306]: Thread [2] is removed from queue L[1]
+[A] Tick [1306]: Thread [1] is inserted into queue L[1]
+[E] Tick [1306]: Thread [2] is now selected for execution, thread [1] is replaced, and it has executed [123] ticks
+
+[D] Tick [1316]: Thread [2] update approximate burst time, from: [12], add [10], to [11]
+[B] Tick [1316]: Thread [1] is removed from queue L[1]
+[E] Tick [1316]: Thread [1] is now selected for execution, thread [2] is replaced, and it has executed [10] ticks
+[A] Tick [1326]: Thread [2] is inserted into queue L[1]
+[B] Tick [1406]: Thread [2] is removed from queue L[1]
+[A] Tick [1406]: Thread [1] is inserted into queue L[1]
+[E] Tick [1406]: Thread [2] is now selected for execution, thread [1] is replaced, and it has executed [213] ticks
+2[D] Tick [1452]: Thread [2] update approximate burst time, from: [11], add [46], to [28.5]
+[B] Tick [1452]: Thread [1] is removed from queue L[1]
+[E] Tick [1452]: Thread [1] is now selected for execution, thread [2] is replaced, and it has executed [46] ticks
+[A] Tick [1462]: Thread [2] is inserted into queue L[1]
+[D] Tick [2313]: Thread [1] update approximate burst time, from: [272.125], add [1074], to [673.062]
+[B] Tick [2313]: Thread [2] is removed from queue L[1]
+[E] Tick [2313]: Thread [2] is now selected for execution, thread [1] is replaced, and it has executed [1074] ticks
+
+[D] Tick [2323]: Thread [2] update approximate burst time, from: [28.5], add [10], to [19.25]
+[A] Tick [2324]: Thread [2] is inserted into queue L[1]
+[B] Tick [2324]: Thread [2] is removed from queue L[1]
+[E] Tick [2324]: Thread [2] is now selected for execution, thread [2] is replaced, and it has executed [10] ticks
+[A] Tick [2334]: Thread [1] is inserted into queue L[1]
+2[D] Tick [2370]: Thread [2] update approximate burst time, from: [19.25], add [46], to [32.625]
+[B] Tick [2370]: Thread [1] is removed from queue L[1]
+[E] Tick [2370]: Thread [1] is now selected for execution, thread [2] is replaced, and it has executed [46] ticks
+[A] Tick [2371]: Thread [2] is inserted into queue L[1]
+[B] Tick [2371]: Thread [2] is removed from queue L[1]
+[E] Tick [2371]: Thread [2] is now selected for execution, thread [1] is replaced, and it has executed [0] ticks
+
+[D] Tick [2381]: Thread [2] update approximate burst time, from: [32.625], add [10], to [21.3125]
+[A] Tick [2382]: Thread [2] is inserted into queue L[1]
+[B] Tick [2382]: Thread [2] is removed from queue L[1]
+[E] Tick [2382]: Thread [2] is now selected for execution, thread [2] is replaced, and it has executed [10] ticks
+[A] Tick [2392]: Thread [1] is inserted into queue L[1]
+2[D] Tick [2428]: Thread [2] update approximate burst time, from: [21.3125], add [46], to [33.6562]
+[B] Tick [2428]: Thread [1] is removed from queue L[1]
+[E] Tick [2428]: Thread [1] is now selected for execution, thread [2] is replaced, and it has executed [46] ticks
+[A] Tick [2429]: Thread [2] is inserted into queue L[1]
+[B] Tick [2429]: Thread [2] is removed from queue L[1]
+[E] Tick [2429]: Thread [2] is now selected for execution, thread [1] is replaced, and it has executed [0] ticks
+
+[D] Tick [2439]: Thread [2] update approximate burst time, from: [33.6562], add [10], to [21.8281]
+[A] Tick [2440]: Thread [2] is inserted into queue L[1]
+[B] Tick [2440]: Thread [2] is removed from queue L[1]
+[E] Tick [2440]: Thread [2] is now selected for execution, thread [2] is replaced, and it has executed [10] ticks
+[A] Tick [2450]: Thread [1] is inserted into queue L[1]
+2[D] Tick [2486]: Thread [2] update approximate burst time, from: [21.8281], add [46], to [33.9141]
+[B] Tick [2486]: Thread [1] is removed from queue L[1]
+[E] Tick [2486]: Thread [1] is now selected for execution, thread [2] is replaced, and it has executed [46] ticks
+[A] Tick [2487]: Thread [2] is inserted into queue L[1]
+[B] Tick [2487]: Thread [2] is removed from queue L[1]
+[E] Tick [2487]: Thread [2] is now selected for execution, thread [1] is replaced, and it has executed [0] ticks
+
+[D] Tick [2497]: Thread [2] update approximate burst time, from: [33.9141], add [10], to [21.957]
+[A] Tick [2498]: Thread [2] is inserted into queue L[1]
+[B] Tick [2498]: Thread [2] is removed from queue L[1]
+[E] Tick [2498]: Thread [2] is now selected for execution, thread [2] is replaced, and it has executed [10] ticks
+[A] Tick [2508]: Thread [1] is inserted into queue L[1]
+2[D] Tick [2544]: Thread [2] update approximate burst time, from: [21.957], add [46], to [33.9785]
+[B] Tick [2544]: Thread [1] is removed from queue L[1]
+[E] Tick [2544]: Thread [1] is now selected for execution, thread [2] is replaced, and it has executed [46] ticks
+[A] Tick [2545]: Thread [2] is inserted into queue L[1]
+[B] Tick [2545]: Thread [2] is removed from queue L[1]
+[E] Tick [2545]: Thread [2] is now selected for execution, thread [1] is replaced, and it has executed [0] ticks
+
+[D] Tick [2555]: Thread [2] update approximate burst time, from: [33.9785], add [10], to [21.9893]
+[A] Tick [2556]: Thread [2] is inserted into queue L[1]
+[B] Tick [2556]: Thread [2] is removed from queue L[1]
+[E] Tick [2556]: Thread [2] is now selected for execution, thread [2] is replaced, and it has executed [10] ticks
+[A] Tick [2566]: Thread [1] is inserted into queue L[1]
+2[D] Tick [2602]: Thread [2] update approximate burst time, from: [21.9893], add [46], to [33.9946]
+[B] Tick [2602]: Thread [1] is removed from queue L[1]
+[E] Tick [2602]: Thread [1] is now selected for execution, thread [2] is replaced, and it has executed [46] ticks
+[A] Tick [2603]: Thread [2] is inserted into queue L[1]
+[B] Tick [2603]: Thread [2] is removed from queue L[1]
+[E] Tick [2603]: Thread [2] is now selected for execution, thread [1] is replaced, and it has executed [0] ticks
+
+[D] Tick [2613]: Thread [2] update approximate burst time, from: [33.9946], add [10], to [21.9973]
+[A] Tick [2614]: Thread [2] is inserted into queue L[1]
+[B] Tick [2614]: Thread [2] is removed from queue L[1]
+[E] Tick [2614]: Thread [2] is now selected for execution, thread [2] is replaced, and it has executed [10] ticks
+[A] Tick [2624]: Thread [1] is inserted into queue L[1]
+2[D] Tick [2660]: Thread [2] update approximate burst time, from: [21.9973], add [46], to [33.9987]
+[B] Tick [2660]: Thread [1] is removed from queue L[1]
+[E] Tick [2660]: Thread [1] is now selected for execution, thread [2] is replaced, and it has executed [46] ticks
+[A] Tick [2661]: Thread [2] is inserted into queue L[1]
+[B] Tick [2661]: Thread [2] is removed from queue L[1]
+[E] Tick [2661]: Thread [2] is now selected for execution, thread [1] is replaced, and it has executed [0] ticks
+
+[D] Tick [2671]: Thread [2] update approximate burst time, from: [33.9987], add [10], to [21.9993]
+[A] Tick [2672]: Thread [2] is inserted into queue L[1]
+[B] Tick [2672]: Thread [2] is removed from queue L[1]
+[E] Tick [2672]: Thread [2] is now selected for execution, thread [2] is replaced, and it has executed [10] ticks
+[A] Tick [2682]: Thread [1] is inserted into queue L[1]
+2[D] Tick [2718]: Thread [2] update approximate burst time, from: [21.9993], add [46], to [33.9997]
+[B] Tick [2718]: Thread [1] is removed from queue L[1]
+[E] Tick [2718]: Thread [1] is now selected for execution, thread [2] is replaced, and it has executed [46] ticks
+[A] Tick [2719]: Thread [2] is inserted into queue L[1]
+[B] Tick [2719]: Thread [2] is removed from queue L[1]
+[E] Tick [2719]: Thread [2] is now selected for execution, thread [1] is replaced, and it has executed [0] ticks
+
+[D] Tick [2729]: Thread [2] update approximate burst time, from: [33.9997], add [10], to [21.9998]
+[A] Tick [2730]: Thread [2] is inserted into queue L[1]
+[B] Tick [2730]: Thread [2] is removed from queue L[1]
+[E] Tick [2730]: Thread [2] is now selected for execution, thread [2] is replaced, and it has executed [10] ticks
+[A] Tick [2740]: Thread [1] is inserted into queue L[1]
+2[D] Tick [2776]: Thread [2] update approximate burst time, from: [21.9998], add [46], to [33.9999]
+[B] Tick [2776]: Thread [1] is removed from queue L[1]
+[E] Tick [2776]: Thread [1] is now selected for execution, thread [2] is replaced, and it has executed [46] ticks
+[A] Tick [2777]: Thread [2] is inserted into queue L[1]
+[B] Tick [2777]: Thread [2] is removed from queue L[1]
+[E] Tick [2777]: Thread [2] is now selected for execution, thread [1] is replaced, and it has executed [0] ticks
+
+[D] Tick [2787]: Thread [2] update approximate burst time, from: [33.9999], add [10], to [22]
+[A] Tick [2788]: Thread [2] is inserted into queue L[1]
+[B] Tick [2788]: Thread [2] is removed from queue L[1]
+[E] Tick [2788]: Thread [2] is now selected for execution, thread [2] is replaced, and it has executed [10] ticks
+[A] Tick [2798]: Thread [1] is inserted into queue L[1]
+return value:0
+[B] Tick [2833]: Thread [1] is removed from queue L[1]
+[E] Tick [2833]: Thread [1] is now selected for execution, thread [2] is replaced, and it has executed [45] ticks
+1[D] Tick [2843]: Thread [1] update approximate burst time, from: [673.062], add [10], to [341.531]
+[A] Tick [2844]: Thread [1] is inserted into queue L[1]
+[B] Tick [2844]: Thread [1] is removed from queue L[1]
+[E] Tick [2844]: Thread [1] is now selected for execution, thread [1] is replaced, and it has executed [10] ticks
+
+[D] Tick [2854]: Thread [1] update approximate burst time, from: [341.531], add [10], to [175.766]
+[A] Tick [2855]: Thread [1] is inserted into queue L[1]
+[B] Tick [2855]: Thread [1] is removed from queue L[1]
+[E] Tick [2855]: Thread [1] is now selected for execution, thread [1] is replaced, and it has executed [10] ticks
+1[D] Tick [3909]: Thread [1] update approximate burst time, from: [175.766], add [1054], to [614.883]
+[A] Tick [3910]: Thread [1] is inserted into queue L[1]
+[B] Tick [3910]: Thread [1] is removed from queue L[1]
+[E] Tick [3910]: Thread [1] is now selected for execution, thread [1] is replaced, and it has executed [1054] ticks
+
+[D] Tick [3920]: Thread [1] update approximate burst time, from: [614.883], add [10], to [312.441]
+[A] Tick [3921]: Thread [1] is inserted into queue L[1]
+[B] Tick [3921]: Thread [1] is removed from queue L[1]
+[E] Tick [3921]: Thread [1] is now selected for execution, thread [1] is replaced, and it has executed [10] ticks
+1[D] Tick [4975]: Thread [1] update approximate burst time, from: [312.441], add [1054], to [683.221]
+[A] Tick [4976]: Thread [1] is inserted into queue L[1]
+[B] Tick [4976]: Thread [1] is removed from queue L[1]
+[E] Tick [4976]: Thread [1] is now selected for execution, thread [1] is replaced, and it has executed [1054] ticks
+
+[D] Tick [4986]: Thread [1] update approximate burst time, from: [683.221], add [10], to [346.61]
+[A] Tick [4987]: Thread [1] is inserted into queue L[1]
+[B] Tick [4987]: Thread [1] is removed from queue L[1]
+[E] Tick [4987]: Thread [1] is now selected for execution, thread [1] is replaced, and it has executed [10] ticks
+1[D] Tick [6041]: Thread [1] update approximate burst time, from: [346.61], add [1054], to [700.305]
+[A] Tick [6042]: Thread [1] is inserted into queue L[1]
+[B] Tick [6042]: Thread [1] is removed from queue L[1]
+[E] Tick [6042]: Thread [1] is now selected for execution, thread [1] is replaced, and it has executed [1054] ticks
+
+[D] Tick [6052]: Thread [1] update approximate burst time, from: [700.305], add [10], to [355.153]
+[A] Tick [6053]: Thread [1] is inserted into queue L[1]
+[B] Tick [6053]: Thread [1] is removed from queue L[1]
+[E] Tick [6053]: Thread [1] is now selected for execution, thread [1] is replaced, and it has executed [10] ticks
+1[D] Tick [7107]: Thread [1] update approximate burst time, from: [355.153], add [1054], to [704.576]
+[A] Tick [7108]: Thread [1] is inserted into queue L[1]
+[B] Tick [7108]: Thread [1] is removed from queue L[1]
+[E] Tick [7108]: Thread [1] is now selected for execution, thread [1] is replaced, and it has executed [1054] ticks
+
+[D] Tick [7118]: Thread [1] update approximate burst time, from: [704.576], add [10], to [357.288]
+[A] Tick [7119]: Thread [1] is inserted into queue L[1]
+[B] Tick [7119]: Thread [1] is removed from queue L[1]
+[E] Tick [7119]: Thread [1] is now selected for execution, thread [1] is replaced, and it has executed [10] ticks
+1[D] Tick [8173]: Thread [1] update approximate burst time, from: [357.288], add [1054], to [705.644]
+[A] Tick [8174]: Thread [1] is inserted into queue L[1]
+[B] Tick [8174]: Thread [1] is removed from queue L[1]
+[E] Tick [8174]: Thread [1] is now selected for execution, thread [1] is replaced, and it has executed [1054] ticks
+
+[D] Tick [8184]: Thread [1] update approximate burst time, from: [705.644], add [10], to [357.822]
+[A] Tick [8185]: Thread [1] is inserted into queue L[1]
+[B] Tick [8185]: Thread [1] is removed from queue L[1]
+[E] Tick [8185]: Thread [1] is now selected for execution, thread [1] is replaced, and it has executed [10] ticks
+1[D] Tick [9239]: Thread [1] update approximate burst time, from: [357.822], add [1054], to [705.911]
+[A] Tick [9240]: Thread [1] is inserted into queue L[1]
+[B] Tick [9240]: Thread [1] is removed from queue L[1]
+[E] Tick [9240]: Thread [1] is now selected for execution, thread [1] is replaced, and it has executed [1054] ticks
+
+[D] Tick [9250]: Thread [1] update approximate burst time, from: [705.911], add [10], to [357.956]
+[A] Tick [9251]: Thread [1] is inserted into queue L[1]
+[B] Tick [9251]: Thread [1] is removed from queue L[1]
+[E] Tick [9251]: Thread [1] is now selected for execution, thread [1] is replaced, and it has executed [10] ticks
+1[D] Tick [10305]: Thread [1] update approximate burst time, from: [357.956], add [1054], to [705.978]
+[A] Tick [10306]: Thread [1] is inserted into queue L[1]
+[B] Tick [10306]: Thread [1] is removed from queue L[1]
+[E] Tick [10306]: Thread [1] is now selected for execution, thread [1] is replaced, and it has executed [1054] ticks
+
+[D] Tick [10316]: Thread [1] update approximate burst time, from: [705.978], add [10], to [357.989]
+[A] Tick [10317]: Thread [1] is inserted into queue L[1]
+[B] Tick [10317]: Thread [1] is removed from queue L[1]
+[E] Tick [10317]: Thread [1] is now selected for execution, thread [1] is replaced, and it has executed [10] ticks
+return value:0
